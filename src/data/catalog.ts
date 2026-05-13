@@ -203,7 +203,7 @@ export const catalog: Category[] = [
         description: "Corte de bistek fresco. Disponible por kg.",
         price: "Consultar",
         imageUrl:
-          "https://images.unsplash.com/photo-1603048297172-c92544798d5e?auto=format&fit=crop&q=80&w=400&h=300",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtgd84SaijlQ8mV3ovYX17fgvrmlehpT4QKw&s",
       },
       {
         id: "c2",
@@ -211,7 +211,7 @@ export const catalog: Category[] = [
         description: "Carne de res molida fresca. Disponible por kg.",
         price: "Consultar",
         imageUrl:
-          "https://images.unsplash.com/photo-1588102377202-604bc493547d?auto=format&fit=crop&q=80&w=400&h=300",
+          "https://editorialtelevisa.brightspotcdn.com/dims4/default/935c135/2147483647/strip/true/crop/600x338+0+31/resize/1000x563!/quality/90/?url=https%3A%2F%2Fk2-prod-editorial-televisa.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fwp-content%2Fuploads%2F2021%2F03%2Fcarne-molida.jpg",
       },
       {
         id: "c3",
@@ -219,7 +219,7 @@ export const catalog: Category[] = [
         description: "Pollo picado, muslo, alas, patas, milanesa.",
         price: "Consultar",
         imageUrl:
-          "https://images.unsplash.com/photo-1598514982205-f36b96d1e8dd?auto=format&fit=crop&q=80&w=400&h=300",
+          "https://www.gastronomiavasca.net/uploads/image/file/4317/muslo_de_pollo.jpg",
       },
       {
         id: "c4",
@@ -227,7 +227,7 @@ export const catalog: Category[] = [
         description: "Chuleta de cerdo ahumada.",
         price: "Consultar",
         imageUrl:
-          "https://images.unsplash.com/photo-1432139555190-58524dae6a55?auto=format&fit=crop&q=80&w=400&h=300",
+          "https://s.yimg.com/os/es/animal_gourmet_468/e0b4aaea98f5c6519a80dceeefc23ac9",
       },
       {
         id: "c5",
@@ -235,7 +235,7 @@ export const catalog: Category[] = [
         description: "Hueso ahumado ideal para sopas y guisos.",
         price: "Consultar",
         imageUrl:
-          "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?auto=format&fit=crop&q=80&w=400&h=300",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWAT50Gl1DBQn17x745WVCJmC9DwvpsVB_6g&s",
       },
       {
         id: "c6",
@@ -243,7 +243,7 @@ export const catalog: Category[] = [
         description: "Chorizo de cerdo artesanal.",
         price: "Consultar",
         imageUrl:
-          "https://images.unsplash.com/photo-1596541175655-b4fedf0e4b86?auto=format&fit=crop&q=80&w=400&h=300",
+          "https://www.tiendadelcarnicero.com/wp-content/uploads/2021/03/Receta-Chorizo-ahumado-ok.jpg",
       },
       {
         id: "c7",
@@ -251,7 +251,7 @@ export const catalog: Category[] = [
         description: "Costilla de res fresca.",
         price: "Consultar",
         imageUrl:
-          "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&q=80&w=400&h=300",
+          "https://solofruver.com/wp-content/uploads/2023/03/Costilla-de-res-especial-compressed.jpg",
       },
     ],
   },
@@ -270,39 +270,38 @@ export const catalog: Category[] = [
           "Analgésico y antipirético. Presentaciones de 500mg y 650mg.",
         price: "Consultar",
         imageUrl:
-          "https://images.unsplash.com/photo-1584308666744-24d5c474f2eb?auto=format&fit=crop&q=80&w=400&h=300",
+          "https://www.farmadon.com.ve/wp-content/uploads/2021/01/ATAMEL-FORTE-CALOX-650MG-X-10-4.jpg",
       },
       {
         id: "m2",
-        name: "Ibuprofeno 500mg",
+        name: "Ibuprofeno 400mg",
         description: "Analgésico y antiinflamatorio en tabletas de 500mg.",
         price: "Consultar",
         imageUrl:
-          "https://images.unsplash.com/photo-1583947581924-860bda6a5fdf?auto=format&fit=crop&q=80&w=400&h=300",
+          "https://calox.com/wp-content/uploads/2022/12/Ibuprofeno-400-mg-20-Tab-Rec.webp",
       },
       {
         id: "m3",
         name: "Jarabes (Tos, Analgésico)",
         description: "Jarabes para la tos y analgésicos líquidos.",
         price: "Consultar",
-        imageUrl:
-          "https://images.unsplash.com/photo-1580281664426-17b4c6bc9cba?auto=format&fit=crop&q=80&w=400&h=300",
+        imageUrl: "https://www.ecured.cu/images/f/fe/Jara.jpg",
       },
       {
         id: "m4",
         name: "Vitamina C 500mg",
-        description: "Suplemento de Vitamina C en tabletas.",
+        description: "Suplemento de Vitamina C en tabletas y capsulas.",
         price: "Consultar",
         imageUrl:
-          "https://images.unsplash.com/photo-1584017911766-d451b3d0e843?auto=format&fit=crop&q=80&w=400&h=300",
+          "https://www.farmadon.com.ve/wp-content/uploads/2021/10/Cevax-Vitamina-C-500mg-x-15-Capsulas-Vivax.png",
       },
       {
         id: "m5",
-        name: "Vitamina C Masticable",
+        name: "Vitamina C Masticables",
         description: "Vitamina C en tabletas masticables de agradable sabor.",
         price: "Consultar",
         imageUrl:
-          "https://images.unsplash.com/photo-1550572017-edb322daebe1?auto=format&fit=crop&q=80&w=400&h=300",
+          "https://lh3.googleusercontent.com/Ttndb6Y00BEVL93y-PbzZAmCB8dbj_Kfpkld7nChA67AVT8Uj4JM4Shq1Q3EHPBwWf_KeMHwpLM7gdWw6nYDcfaoFEmDSv9ph0-WCRO3IJrysfBU",
       },
       {
         id: "m6",
@@ -310,7 +309,7 @@ export const catalog: Category[] = [
         description: "Gotas oftálmicas.",
         price: "Consultar",
         imageUrl:
-          "https://images.unsplash.com/photo-1576671081837-49000212a370?auto=format&fit=crop&q=80&w=400&h=300",
+          "https://lh3.googleusercontent.com/3gH0Bz_ge0C99MQPKZIjubyMgVXaMiZWnUM6nwmWPmYSF7LcnhEp2A4eMq7rKylJkBfD9bdvRLoLt1oqfKCOTM6VYx4n1u6cq92EmVIka6ttPZGV",
       },
       {
         id: "m7",
@@ -326,72 +325,64 @@ export const catalog: Category[] = [
         description: "Alcohol isopropílico o etílico para desinfección.",
         price: "Consultar",
         imageUrl:
-          "https://images.unsplash.com/photo-1584483766114-2cea6facdf57?auto=format&fit=crop&q=80&w=400&h=300",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8ZW4VvfMEZFfTUiOoI5Yru2wvwY8g-VcT5w&s",
       },
       {
         id: "m9",
-        name: "Rifocina",
-        description: "Solución tópica.",
-        price: "Consultar",
-        imageUrl:
-          "https://images.unsplash.com/photo-1628771065518-0d82f1938462?auto=format&fit=crop&q=80&w=400&h=300",
-      },
-      {
-        id: "m10",
         name: "Agua Oxigenada",
         description: "Agua oxigenada (Peróxido de hidrógeno).",
         price: "Consultar",
         imageUrl:
-          "https://images.unsplash.com/photo-1584483766114-2cea6facdf57?auto=format&fit=crop&q=80&w=400&h=300",
+          "https://locatelvenezuela.vtexassets.com/arquivos/ids/167993/2090332.jpg?v=637844245742430000",
       },
       {
-        id: "m11",
+        id: "m10",
         name: "Algodón",
         description: "Algodón absorbente, varias presentaciones.",
         price: "Consultar",
         imageUrl:
-          "https://images.unsplash.com/photo-1584308666744-24d5c474f2eb?auto=format&fit=crop&q=80&w=400&h=300",
+          "https://www.farmadon.com.ve/wp-content/uploads/2025/01/Algodon-X-500Gr-Rollo-Full-Time.png",
       },
       {
-        id: "m12",
+        id: "m11",
         name: "Gasas",
         description: "Paquetes de gasas estériles.",
         price: "Consultar",
         imageUrl:
-          "https://images.unsplash.com/photo-1603398938378-e54eab446dde?auto=format&fit=crop&q=80&w=400&h=300",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO8H84ILlVRWjJ0AIgsjGxs4jYDgy4n1AJuQ&s",
       },
       {
-        id: "m13",
-        name: "Guantes de Látex",
+        id: "m12",
+        name: "Guantes de Látex y de Nitrilo",
         description: "Cajas de guantes de látex o nitrilo.",
         price: "Consultar",
         imageUrl:
-          "https://images.unsplash.com/photo-1584984240751-bbd512a2faba?auto=format&fit=crop&q=80&w=400&h=300",
+          "https://um.com.co/wp-content/uploads/2024/09/Guantes-de-nitrilo.jpg",
       },
       {
-        id: "m14",
+        id: "m13",
         name: "Mascarillas Quirúrgicas",
         description: "Mascarillas desechables, paquetes o cajas.",
         price: "Consultar",
         imageUrl:
-          "https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&q=80&w=400&h=300",
+          "https://lh3.googleusercontent.com/q3aoc_Y4D4qncUDJBPwrWjiP5jCUsVKi7xjnwP5HMkuuwtXnVQxEJeVOZohkm8xk-HTyBD-qqNgMNCc6Nfm6aZpUVsGBhc4WfhNzO3OFZUWiranV",
       },
       {
-        id: "m15",
+        id: "m14",
         name: "Jeringas",
         description: "Jeringas descartables de diferentes capacidades.",
         price: "Consultar",
         imageUrl:
-          "https://images.unsplash.com/photo-1584308666744-24d5c474f2eb?auto=format&fit=crop&q=80&w=400&h=300",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkhoNHTWi7S0unSfqIMad8oS6PvkTawSFu-Q&s",
       },
       {
-        id: "m16",
+        id: "m15",
         name: "Medicamentos por Receta",
         description:
-          "Medicamentos controlados y especializados. Requiere récipe.",
+          "Medicamentos controlados y especializados. Requiere récipe y Autorizacion por parte del cliente.",
         price: "Consultar",
         imageUrl:
-          "https://images.unsplash.com/photo-1631549916768-4119b2e5f926?auto=format&fit=crop&q=80&w=400&h=300",
+          "https://media.istockphoto.com/id/1550720063/es/foto/farmacia-farmac%C3%A9utico-o-retrato-de-mujer-con-los-brazos-cruzados-o-sonrisa-en-atenci%C3%B3n-al.jpg?s=612x612&w=0&k=20&c=MaBU_q34Uuewhq4mH6werFsGkHByB3gNSjbkdW6DBbE=",
       },
     ],
   },
@@ -408,7 +399,7 @@ export const catalog: Category[] = [
         description: "Crema dental de varias marcas y tamaños.",
         price: "Consultar",
         imageUrl:
-          "https://images.unsplash.com/photo-1559868770-5b12da6ea1eb?auto=format&fit=crop&q=80&w=400&h=300",
+          "https://bnaturalstore.com/wp-content/uploads/2023/09/Crema-dental-sin-fluor-Importancia-de-su-uso-.jpg",
       },
       {
         id: "h2",
@@ -416,7 +407,7 @@ export const catalog: Category[] = [
         description: "Cepillo de dientes en distintas presentaciones.",
         price: "Consultar",
         imageUrl:
-          "https://images.unsplash.com/photo-1588775460293-1ca476a26759?auto=format&fit=crop&q=80&w=400&h=300",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf4MtcTHGX9aY5YsNYioC1AGOeMSNnkyHORw&s",
       },
       {
         id: "h3",
@@ -424,7 +415,7 @@ export const catalog: Category[] = [
         description: "Jabón de baño de diferentes fragancias.",
         price: "Consultar",
         imageUrl:
-          "https://images.unsplash.com/photo-1600857544200-b2f666a9a2ec?auto=format&fit=crop&q=80&w=400&h=300",
+          "https://media.ambito.com/p/765cf895e4a3df968a8f1607500b75de/adjuntos/360/imagenes/041/669/0041669965/730x0/smart/jabon-tocador.jpg",
       },
       {
         id: "h4",
@@ -432,7 +423,7 @@ export const catalog: Category[] = [
         description: "Cremas corporales y faciales.",
         price: "Consultar",
         imageUrl:
-          "https://images.unsplash.com/photo-1629198688000-71f23e745b6e?auto=format&fit=crop&q=80&w=400&h=300",
+          "https://acdn-us.mitiendanube.com/stores/001/267/340/products/img_1551-e0c42e7176dc4607b017752730612970-640-0.webp",
       },
       {
         id: "h5",
@@ -440,63 +431,54 @@ export const catalog: Category[] = [
         description: "Protector solar (cualquier nivel de FPS).",
         price: "Consultar",
         imageUrl:
-          "https://images.unsplash.com/photo-1526413232644-8a40f41ce931?auto=format&fit=crop&q=80&w=400&h=300",
+          "https://cdn.shopify.com/s/files/1/0257/2156/9366/files/que-es-un-protector-solar_480x480.jpg?v=1689084815",
       },
       {
         id: "h6",
-        name: "Talco (Cuerpo y Pies)",
-        description: "Talco para cuerpo o pies.",
-        price: "Consultar",
-        imageUrl:
-          "https://images.unsplash.com/photo-1585232004423-244e0e6904e3?auto=format&fit=crop&q=80&w=400&h=300",
-      },
-      {
-        id: "h7",
         name: "Papel Higiénico",
         description: "Papel higiénico disponible por rollo o bulto.",
         price: "Consultar",
         imageUrl:
-          "https://images.unsplash.com/photo-1584556812952-905ffd0ccebf?auto=format&fit=crop&q=80&w=400&h=300",
+          "https://www.eluniverso.com/resizer/v2/N2NO3HSQIVCW5LNKMZCWGKOOS4.jpg?auth=745cbce1ade9de85b8e33d2cc71637b249582d0056195f1a646f3d76d5b41e8c&width=1005&height=670&quality=75&smart=true",
       },
       {
-        id: "h8",
+        id: "h7",
         name: "Enjuague Bucal",
         description: "Enjuague bucal de diferentes marcas.",
         price: "Consultar",
         imageUrl:
-          "https://images.unsplash.com/photo-1616422285623-14bf56bda19a?auto=format&fit=crop&q=80&w=400&h=300",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs1P1JJF2O2mv9QEqiu-syL-ly2aEPw8aH5Q&s",
       },
       {
-        id: "h9",
+        id: "h8",
         name: "Desodorante",
         description: "Desodorante en barra o aerosol.",
         price: "Consultar",
-        imageUrl:
-          "https://images.unsplash.com/photo-1629198725656-78cc1a91e5e5?auto=format&fit=crop&q=80&w=400&h=300",
+        imageUrl: "https://assets.unileversolutions.com/v1/135484881.png",
       },
       {
-        id: "h10",
+        id: "h9",
         name: "Toallas Sanitarias",
         description: "Toallas sanitarias (damas).",
         price: "Consultar",
         imageUrl:
-          "https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&q=80&w=400&h=300",
+          "https://images.ctfassets.net/dml1gy2pj84f/2umMm168Vv0mbeeVo7tc43/62f9b16e1356ce6cf99f08845e5e9d78/Ehub_FemCare_Toallas_nocturnas_ALW_BR_2_Hero_700x340.webp?w=750",
       },
       {
-        id: "h11",
+        id: "h10",
         name: "Shampoo / Acondicionador",
         description: "Shampoo, enjuague, acondicionador, anticaspa.",
         price: "Consultar",
         imageUrl:
-          "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=400&h=300",
+          "https://blog.mysubscriptionaddiction.com/wp-content/uploads/2026/03/04/2026-02-27-13.32.03-1-rotated-e1772590923932-733x634.jpg",
       },
       {
-        id: "h12",
+        id: "h11",
         name: "Aceite de Bebé",
         description: "Aceite para el cuidado de la piel del bebé.",
         price: "Consultar",
         imageUrl:
-          "https://images.unsplash.com/photo-1555820598-c80152b5b3a4?auto=format&fit=crop&q=80&w=400&h=300",
+          "https://acdn-us.mitiendanube.com/stores/016/311/products/4-1ecf53aa692134de1517296047423825-1024-1024.webp",
       },
     ],
   },
@@ -514,7 +496,7 @@ export const catalog: Category[] = [
           "Fragancias: cereza, lavanda, brisa marina. Venta por litro al mayor, requiere envase o garrafón.",
         price: "Consultar",
         imageUrl:
-          "https://images.unsplash.com/photo-1584820927498-cafe0c169bea?auto=format&fit=crop&q=80&w=400&h=300",
+          "https://cdn.unotv.com/images/2024/04/desinfectantes-naturales-para-limpiar-la-casa-jpg-125538.jpeg",
       },
       {
         id: "l2",
@@ -523,7 +505,7 @@ export const catalog: Category[] = [
           "Cloro concentrado. Venta por litro al mayor, requiere envase o garrafón.",
         price: "Consultar",
         imageUrl:
-          "https://images.unsplash.com/photo-1585421514738-0be34771da92?auto=format&fit=crop&q=80&w=400&h=300",
+          "https://www.clikisalud.net/wp-content/uploads/2020/05/medidas-precaucion-manipular-cloro.jpg",
       },
       {
         id: "l3",
@@ -532,7 +514,7 @@ export const catalog: Category[] = [
           "Jabón líquido multiuso. Venta por litro al mayor, requiere envase o garrafón.",
         price: "Consultar",
         imageUrl:
-          "https://images.unsplash.com/photo-1585553616435-2dc0a54e271d?auto=format&fit=crop&q=80&w=400&h=300",
+          "https://media.losandes.com.ar/p/2ae079e15468380a504f70b08535ab1d/adjuntos/368/imagenes/100/606/0100606985/1000x0/smart/jabon-liquido-la-limpieza-del-hogar.png",
       },
       {
         id: "l4",
@@ -541,7 +523,7 @@ export const catalog: Category[] = [
           "Limpiador desinfectante tipo Pinesol. Venta por litro al mayor, requiere envase o garrafón.",
         price: "Consultar",
         imageUrl:
-          "https://images.unsplash.com/photo-1628178125191-22e70e9a5fdc?auto=format&fit=crop&q=80&w=400&h=300",
+          "https://frontiergroup.org/wp-content/uploads/2023/02/PineSol-on-shelf-Mike-Mozart-CC-BY-2.0-scaled.jpg",
       },
       {
         id: "l5",
@@ -550,7 +532,7 @@ export const catalog: Category[] = [
           "Lavaplatos líquido concentrado. Venta por litro al mayor, requiere envase o garrafón.",
         price: "Consultar",
         imageUrl:
-          "https://images.unsplash.com/photo-1588708170046-d87bb003df24?auto=format&fit=crop&q=80&w=400&h=300",
+          "https://upload.wikimedia.org/wikipedia/commons/7/71/Afwasmiddel.jpg",
       },
     ],
   },
@@ -567,7 +549,7 @@ export const catalog: Category[] = [
         description: "Venta por unidad (botella) o por caja de 12 unidades.",
         price: "Consultar",
         imageUrl:
-          "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?auto=format&fit=crop&q=80&w=400&h=300",
+          "https://us.123rf.com/450wm/austler/austler2403/austler240303970/227066445-botellas-de-whisky-en-la-barra-del-bar-de-un-pub-o-restaurante.jpg?ver=6",
       },
       {
         id: "lic2",
@@ -576,7 +558,7 @@ export const catalog: Category[] = [
           "Joven, Blended, Single Malt, 8 años, o cualquier barrica. Venta por unidad (botella) o por caja de 12 unidades.",
         price: "Consultar",
         imageUrl:
-          "https://images.unsplash.com/photo-1527281400683-1aae777175f8?auto=format&fit=crop&q=80&w=400&h=300",
+          "https://www.semana.com/resizer/v2/STG67ICNONCVDAR52KHXFSUZUY.jpg?smart=true&auth=c4dd74fa7bb4f9febc9991045f0acab70ad0f739d2da753bd907a7381a4fc356&width=1280&height=720",
       },
       {
         id: "lic3",
@@ -585,7 +567,7 @@ export const catalog: Category[] = [
           "Joven, Añejado o de cualquier barrica. Venta por unidad (botella) o por caja de 12 unidades.",
         price: "Consultar",
         imageUrl:
-          "https://images.unsplash.com/photo-1614316654067-160105318182?auto=format&fit=crop&q=80&w=400&h=300",
+          "https://humoytabaco.com/wp-content/uploads/2024/08/cacique-anejo-01.jpg?w=1568",
       },
       {
         id: "lic4",
@@ -594,7 +576,7 @@ export const catalog: Category[] = [
           "Latas pequeñas y de tercio, Pilsen y Light, botella unidad, cajas.",
         price: "Consultar",
         imageUrl:
-          "https://images.unsplash.com/photo-1600216773539-7104b2aee056?auto=format&fit=crop&q=80&w=400&h=300",
+          "https://mblm.com/wp-content/uploads/2010/03/featured_image_empresas_polar_cerveceria_polar_case.jpg",
       },
       {
         id: "lic5",
@@ -602,23 +584,22 @@ export const catalog: Category[] = [
         description: "Por latas de tercio, botella y six pack.",
         price: "Consultar",
         imageUrl:
-          "https://images.unsplash.com/photo-1657214736345-31fcf6144e54?auto=format&fit=crop&q=80&w=400&h=300",
+          "https://encervezate.com/wp-content/uploads/2025/07/GermanBiers-e1753465950246-1600x813.webp",
       },
       {
         id: "lic6",
         name: "Cerveza Holandesa (Heineken)",
         description: "Heineken por lata y six pack.",
         price: "Consultar",
-        imageUrl:
-          "https://images.unsplash.com/photo-1615332568770-ceebde81db32?auto=format&fit=crop&q=80&w=400&h=300",
+        imageUrl: "https://www.heineken.com/media/d4xpjtg2/image-1-3.png",
       },
       {
         id: "lic7",
         name: "Cerveza Dominicana",
-        description: "Cerveza D, por lata y six pack.",
+        description: "Cerveza P, por lata y six pack.",
         price: "Consultar",
         imageUrl:
-          "https://images.unsplash.com/photo-1575037614876-c38db0ae2c40?auto=format&fit=crop&q=80&w=400&h=300",
+          "https://img1.elyerromenu.com/images/bar-4k-plus/cerveza-presidente/img.webp",
       },
     ],
   },
@@ -635,7 +616,7 @@ export const catalog: Category[] = [
         description: "Capacidad de 100 lts, 120 lts, 560 lts y 1000 lts.",
         price: "Consultar",
         imageUrl:
-          "https://images.unsplash.com/photo-1605330368142-f2868297b1fd?auto=format&fit=crop&q=80&w=400&h=300",
+          "https://www.verines.com/images/001/pipote-manaplas-fuerte-150-lts.jpg",
       },
       {
         id: "f2",
@@ -644,7 +625,7 @@ export const catalog: Category[] = [
           "Cualquier categoría y color personalizado. Presentación en galón y cuñete.",
         price: "Consultar",
         imageUrl:
-          "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&q=80&w=400&h=300",
+          "https://media.istockphoto.com/id/1674501260/es/foto/fondo-de-primer-plano-de-latas-de-pintura-vista-superior-renderizado-3d.jpg?s=612x612&w=0&k=20&c=xORsQHaariZ4HZrv2nVBQxsGIZ-bOfJ_3lOTr1-JAlw=",
       },
       {
         id: "f3",
@@ -653,7 +634,7 @@ export const catalog: Category[] = [
           "Brochas de cualquier tamaño, rodillos, bandejas, cinta para pintura.",
         price: "Consultar",
         imageUrl:
-          "https://images.unsplash.com/photo-1562259929-b4e1fd3aef09?auto=format&fit=crop&q=80&w=400&h=300",
+          "https://www.comercialquintairos.es/blog/productos-y-herramientas-de-pintura-en-comercial-quintairos_pic2219ni0t6.jpg",
       },
       {
         id: "f4",
@@ -662,25 +643,16 @@ export const catalog: Category[] = [
           "Debe adjuntar en su lista de encargo la herramienta en específico.",
         price: "Consultar",
         imageUrl:
-          "https://images.unsplash.com/photo-1586524941913-73138b0fde8c?auto=format&fit=crop&q=80&w=400&h=300",
+          "https://serveiestacio.com/blog/wp-content/uploads/2018/08/herramientas-bricolaje-fondo.jpg",
       },
       {
         id: "f5",
-        name: "Materiales de Albañilería",
-        description:
-          "Cemento, pego, cal, bloques, etc. Especifique en la lista su requerimiento.",
-        price: "Consultar",
-        imageUrl:
-          "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80&w=400&h=300",
-      },
-      {
-        id: "f6",
         name: "Tubo PVC",
         description:
           "Debe especificar el tamaño, medida, grosor y si necesita codos.",
         price: "Consultar",
         imageUrl:
-          "https://images.unsplash.com/photo-1596726266009-178c773a4bda?auto=format&fit=crop&q=80&w=400&h=300",
+          "https://josebarroso.com.mx/cdn/shop/products/Tuberia_888f773e-15aa-4f26-8e8a-e5426d21c2bd.jpg?v=1618522715",
       },
     ],
   },
