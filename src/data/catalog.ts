@@ -28,43 +28,43 @@ export interface Category {
 
 export const catalog: Category[] = [
   {
-    id: "alimentos",
-    title: "Alimentos Básicos",
-    description: "Víveres al detal y mayorista por pacas grandes.",
+    id: "mercado-despensa",
+    title: "Mercado y despensa",
+    description: "Víveres esenciales para tu hogar a precio de mayorista.",
     icon: ShoppingBasket,
-    path: "/alimentos",
+    path: "/mercado-despensa",
     products: [
       {
         id: "a1",
-        name: "Arroz (Detal y Bulto)",
-        description: "Arroz tipo 1. Disponible por unidad o por bulto/paca.",
+        name: "Arroz",
+        description: "Arroz tipo 1. Disponible por kilo o paca completa para mayor ahorro.",
         price: "Consultar",
         imageUrl:
           "https://st.depositphotos.com/1005708/3448/i/450/depositphotos_34488037-stock-photo-white-uncooked-rice.jpg",
       },
       {
         id: "a2",
-        name: "Pasta (Detal y Bulto)",
+        name: "Pasta",
         description:
-          "Pasta larga y corta. Disponible por unidad o por bulto/paca.",
+          "Pasta larga y corta de excelente calidad. Ideal para el mercado mensual.",
         price: "Consultar",
         imageUrl:
           "https://thumbs.dreamstime.com/b/pasta-cruda-esparcida-del-saco-sobre-la-mesa-de-madera-cerrar-191696245.jpg",
       },
       {
         id: "a3",
-        name: "Harina PAN (Detal y Bulto)",
+        name: "Harina de Maíz",
         description:
-          "Harina de maíz precocida. Disponible por unidad o por bulto.",
+          "Harina precocida para tus arepas. Compra por bulto y ahorra más.",
         price: "Consultar",
         imageUrl:
           "https://jeta-imports.com/cdn/shop/files/harina-pan-de-maiz-blanco-precocida-1kg-premium-white-corn-flour-400024_884x.jpg?v=1736035133",
       },
       {
         id: "a4",
-        name: "Harina de Trigo (Detal y Bulto)",
+        name: "Harina de Trigo",
         description:
-          "Harina de trigo todo uso. Disponible por unidad o por bulto.",
+          "Harina de trigo todo uso para repostería y cocina en casa.",
         price: "Consultar",
         imageUrl:
           "https://thumbs.dreamstime.com/b/saco-de-harina-con-cuchar%C3%B3n-y-trigo-sobre-una-mesa-r%C3%BAstica-429269458.jpg",
@@ -72,30 +72,30 @@ export const catalog: Category[] = [
       {
         id: "a5",
         name: "Aceite Vegetal",
-        description: "Aceite vegetal. Disponibilidad de varias marcas.",
+        description: "Aceite vegetal para cocinar. Varias marcas disponibles.",
         price: "Consultar",
         imageUrl:
           "https://cdn-3.expansion.mx/dims4/default/fafde76/2147483647/strip/true/crop/1254x837+0+0/resize/800x534!/format/webp/quality/80/?url=https%3A%2F%2Fcherry-brightspot.s3.amazonaws.com%2F56%2Fab%2F938422af485aad913ebdc4130a8e%2Fistock-576732962.jpg",
       },
       {
         id: "a6",
-        name: "Atún en Latas",
-        description: "Atún en aceite o agua, varias presentaciones.",
+        name: "Atún en Lata",
+        description: "Atún en aceite o agua, ideal para una despensa completa.",
         price: "Consultar",
         imageUrl:
           "https://www.consumer.es/app/uploads/2020/08/atun-en-conserva.jpg",
       },
       {
         id: "a7",
-        name: "Granos",
-        description: "Caraotas, frijoles, lentejas y más.",
+        name: "Granos y Legumbres",
+        description: "Caraotas, frijoles y lentejas. Saludables y rendidores.",
         price: "Consultar",
         imageUrl:
           "https://img.freepik.com/fotos-premium/conjunto-diferentes-granos-enteros-frijoles-semillas-legumbres_73523-3388.jpg",
       },
       {
         id: "a8",
-        name: "Sardinas en Lata",
+        name: "Sardinas",
         description: "Sardinas en salsa de tomate o aceite.",
         price: "Consultar",
         imageUrl: "https://i.blogs.es/16ade1/sardinas/500_333.jpeg",
@@ -103,55 +103,15 @@ export const catalog: Category[] = [
       {
         id: "a9",
         name: "Cartón de Huevos (30 unds)",
-        description: "Cartón de 30 huevos blancos o marrones.",
+        description: "Huevos frescos directamente a tu cocina.",
         price: "Consultar",
         imageUrl:
           "https://inversionesloan.com/cdn/shop/files/CARTON.jpg?v=1744471969&width=1080",
       },
       {
-        id: "a10",
-        name: "Salsa de Tomate",
-        description: "Salsa de tomate tipo Kétchup.",
-        price: "Consultar",
-        imageUrl:
-          "https://www.petitchef.es/imgupl/recipe/salsa-de-tomate-cruda-al-estilo-mediterraneo-ideal-como-base-para-una-pizza-o-una-pinsa--484854p821775.webp",
-      },
-      {
-        id: "a11",
-        name: "Mayonesa",
-        description: "Mayonesa en distintas presentaciones.",
-        price: "Consultar",
-        imageUrl:
-          "https://recetasdecocina.elmundo.es/wp-content/uploads/2024/12/mayonesa-casera-1024x683.jpg",
-      },
-      {
-        id: "a12",
-        name: "Mantequilla",
-        description: "Margarina y mantequilla.",
-        price: "Consultar",
-        imageUrl:
-          "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/Y5PK7SO3XBCDHD7BKT3HD66SQQ.jpg",
-      },
-      {
-        id: "a13",
-        name: "Salsa para Pasta",
-        description: "Salsa napolitana, boloñesa entre otras.",
-        price: "Consultar",
-        imageUrl:
-          "https://cdn0.uncomo.com/es/posts/8/7/8/como_hacer_salsa_de_tomate_para_pasta_50878_orig.jpg",
-      },
-      {
-        id: "a14",
-        name: "Sal",
-        description: "Sal refinada, de mesa y de mar.",
-        price: "Consultar",
-        imageUrl:
-          "https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/C894/production/_115784315_gettyimages-827818618.jpg.webp",
-      },
-      {
         id: "a15",
         name: "Azúcar",
-        description: "Azúcar blanca refinada.",
+        description: "Azúcar blanca refinada para el hogar.",
         price: "Consultar",
         imageUrl:
           "https://cimamastologia.com.ar/wp-content/uploads/2025/03/azucar.png",
@@ -159,7 +119,7 @@ export const catalog: Category[] = [
       {
         id: "a16",
         name: "Café",
-        description: "Café molido o en grano.",
+        description: "Café molido para empezar bien el día.",
         price: "Consultar",
         imageUrl:
           "https://www.laprensa.hn/binrepository/600x400/0c0/0d0/none/11004/SMPW/jr-cafe-081018.1_LP1265424_MG72979711.jpg",
@@ -167,40 +127,23 @@ export const catalog: Category[] = [
       {
         id: "a17",
         name: "Leche en Polvo",
-        description: "Leche entera en polvo, varias marcas.",
+        description: "Leche completa para toda la familia.",
         price: "Consultar",
         imageUrl: "https://cdn7.kiwilimon.com/articuloimagen/32300/32439.jpg",
-      },
-      {
-        id: "a18",
-        name: "Leche Líquida",
-        description: "Leche líquida UHT de larga duración.",
-        price: "Consultar",
-        imageUrl:
-          "https://img.freepik.com/foto-gratis/leche-vaso-jarra-mesa-madera_1150-17621.jpg?semt=ais_hybrid&w=740&q=80",
-      },
-      {
-        id: "a19",
-        name: "Refrescos",
-        description:
-          "Disponibles por unidad de 1Lt, 2Ltrs o por Six Pack de 2Ltrs.",
-        price: "Consultar",
-        imageUrl:
-          "https://www.univision.com/_next/image?url=https%3A%2F%2Fst1.uvnimg.com%2Fbf%2F54%2Fdda207384990bd8309046b27cfb0%2Fap-090209040741.jpg&w=1280&q=75",
       },
     ],
   },
   {
-    id: "carniceria",
-    title: "Carnicería",
-    description: "Cortes frescos de res, cerdo y aves bajo pedido.",
+    id: "carnes-embutidos",
+    title: "Carnes y embutidos",
+    description: "Cortes frescos de res, cerdo y aves para tu semana.",
     icon: Beef,
-    path: "/carniceria",
+    path: "/carnes-embutidos",
     products: [
       {
         id: "c1",
-        name: "Carne de Bistek",
-        description: "Corte de bistek fresco. Disponible por kg.",
+        name: "Bistek de Res",
+        description: "Corte de bistek fresco seleccionado por kilo.",
         price: "Consultar",
         imageUrl:
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtgd84SaijlQ8mV3ovYX17fgvrmlehpT4QKw&s",
@@ -208,15 +151,15 @@ export const catalog: Category[] = [
       {
         id: "c2",
         name: "Carne Molida",
-        description: "Carne de res molida fresca. Disponible por kg.",
+        description: "Carne de res molida de primera.",
         price: "Consultar",
         imageUrl:
           "https://editorialtelevisa.brightspotcdn.com/dims4/default/935c135/2147483647/strip/true/crop/600x338+0+31/resize/1000x563!/quality/90/?url=https%3A%2F%2Fk2-prod-editorial-televisa.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fwp-content%2Fuploads%2F2021%2F03%2Fcarne-molida.jpg",
       },
       {
         id: "c3",
-        name: "Pollo (Variedad de cortes)",
-        description: "Pollo picado, muslo, alas, patas, milanesa.",
+        name: "Pollo Entero y Cortes",
+        description: "Pollo fresco, muslos y milanesas para tus comidas.",
         price: "Consultar",
         imageUrl:
           "https://www.gastronomiavasca.net/uploads/image/file/4317/muslo_de_pollo.jpg",
@@ -224,162 +167,104 @@ export const catalog: Category[] = [
       {
         id: "c4",
         name: "Chuleta Ahumada",
-        description: "Chuleta de cerdo ahumada.",
+        description: "Chuletas seleccionadas para un sabor especial.",
         price: "Consultar",
         imageUrl:
           "https://s.yimg.com/os/es/animal_gourmet_468/e0b4aaea98f5c6519a80dceeefc23ac9",
       },
       {
-        id: "c5",
-        name: "Hueso Ahumado",
-        description: "Hueso ahumado ideal para sopas y guisos.",
-        price: "Consultar",
-        imageUrl:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWAT50Gl1DBQn17x745WVCJmC9DwvpsVB_6g&s",
-      },
-      {
         id: "c6",
-        name: "Chorizo Artesanal",
-        description: "Chorizo de cerdo artesanal.",
+        name: "Chorizos y Salchichas",
+        description: "Embutidos frescos para tus parrilladas o desayunos.",
         price: "Consultar",
         imageUrl:
           "https://www.tiendadelcarnicero.com/wp-content/uploads/2021/03/Receta-Chorizo-ahumado-ok.jpg",
       },
+    ],
+  },
+  {
+    id: "higiene",
+    title: "Productos de higiene",
+    description: "Todo para el cuidado personal y aseo de tu familia.",
+    icon: Bath,
+    path: "/higiene",
+    products: [
       {
-        id: "c7",
-        name: "Costilla de Res",
-        description: "Costilla de res fresca.",
+        id: "h1",
+        name: "Crema Dental",
+        description: "Protección bucal para adultos y niños.",
         price: "Consultar",
         imageUrl:
-          "https://solofruver.com/wp-content/uploads/2023/03/Costilla-de-res-especial-compressed.jpg",
+          "https://bnaturalstore.com/wp-content/uploads/2023/09/Crema-dental-sin-fluor-Importancia-de-su-uso-.jpg",
+      },
+      {
+        id: "h3",
+        name: "Jabón de Baño",
+        description: "Jabones en barra para la higiene diaria.",
+        price: "Consultar",
+        imageUrl:
+          "https://media.ambito.com/p/765cf895e4a3df968a8f1607500b75de/adjuntos/360/imagenes/041/669/0041669965/730x0/smart/jabon-tocador.jpg",
+      },
+      {
+        id: "h6",
+        name: "Papel Higiénico",
+        description: "Bultos de papel higiénico para mayor ahorro en casa.",
+        price: "Consultar",
+        imageUrl:
+          "https://www.eluniverso.com/resizer/v2/N2NO3HSQIVCW5LNKMZCWGKOOS4.jpg?auth=745cbce1ade9de85b8e33d2cc71637b249582d0056195f1a646f3d76d5b41e8c&width=1005&height=670&quality=75&smart=true",
+      },
+      {
+        id: "h8",
+        name: "Desodorante",
+        description: "Variedad de marcas en barra y aerosol.",
+        price: "Consultar",
+        imageUrl: "https://assets.unileversolutions.com/v1/135484881.png",
+      },
+      {
+        id: "h10",
+        name: "Shampoo y Acondicionador",
+        description: "Cuidado para todo tipo de cabello.",
+        price: "Consultar",
+        imageUrl:
+          "https://blog.mysubscriptionaddiction.com/wp-content/uploads/2026/03/04/2026-02-27-13.32.03-1-rotated-e1772590923932-733x634.jpg",
       },
     ],
   },
   {
-    id: "medicamentos",
-    title: "Medicamentos",
-    description:
-      "Básicos y especializados (se requiere receta médica para controlados).",
+    id: "medicinas",
+    title: "Medicinas",
+    description: "Básicos para tu botiquín y medicinas bajo receta.",
     icon: Pill,
-    path: "/medicamentos",
+    path: "/medicinas",
     products: [
       {
         id: "m1",
-        name: "Acetaminofén (500mg, 650mg)",
-        description:
-          "Analgésico y antipirético. Presentaciones de 500mg y 650mg.",
+        name: "Analgésicos y Antipiréticos",
+        description: "Acetaminofén, Ibuprofeno y más para aliviar dolores.",
         price: "Consultar",
         imageUrl:
           "https://www.farmadon.com.ve/wp-content/uploads/2021/01/ATAMEL-FORTE-CALOX-650MG-X-10-4.jpg",
       },
       {
-        id: "m2",
-        name: "Ibuprofeno 400mg",
-        description: "Analgésico y antiinflamatorio en tabletas de 500mg.",
-        price: "Consultar",
-        imageUrl:
-          "https://calox.com/wp-content/uploads/2022/12/Ibuprofeno-400-mg-20-Tab-Rec.webp",
-      },
-      {
-        id: "m3",
-        name: "Jarabes (Tos, Analgésico)",
-        description: "Jarabes para la tos y analgésicos líquidos.",
-        price: "Consultar",
-        imageUrl: "https://www.ecured.cu/images/f/fe/Jara.jpg",
-      },
-      {
         id: "m4",
-        name: "Vitamina C 500mg",
-        description: "Suplemento de Vitamina C en tabletas y capsulas.",
+        name: "Vitaminas y Suplementos",
+        description: "Vitamina C y complejos vitamínicos.",
         price: "Consultar",
         imageUrl:
           "https://www.farmadon.com.ve/wp-content/uploads/2021/10/Cevax-Vitamina-C-500mg-x-15-Capsulas-Vivax.png",
       },
       {
-        id: "m5",
-        name: "Vitamina C Masticables",
-        description: "Vitamina C en tabletas masticables de agradable sabor.",
-        price: "Consultar",
-        imageUrl:
-          "https://lh3.googleusercontent.com/Ttndb6Y00BEVL93y-PbzZAmCB8dbj_Kfpkld7nChA67AVT8Uj4JM4Shq1Q3EHPBwWf_KeMHwpLM7gdWw6nYDcfaoFEmDSv9ph0-WCRO3IJrysfBU",
-      },
-      {
-        id: "m6",
-        name: "Colirio",
-        description: "Gotas oftálmicas.",
-        price: "Consultar",
-        imageUrl:
-          "https://lh3.googleusercontent.com/3gH0Bz_ge0C99MQPKZIjubyMgVXaMiZWnUM6nwmWPmYSF7LcnhEp2A4eMq7rKylJkBfD9bdvRLoLt1oqfKCOTM6VYx4n1u6cq92EmVIka6ttPZGV",
-      },
-      {
-        id: "m7",
-        name: "Antiácido Masticable",
-        description: "Antiácido en tabletas masticables para alivio estomacal.",
-        price: "Consultar",
-        imageUrl:
-          "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?auto=format&fit=crop&q=80&w=400&h=300",
-      },
-      {
         id: "m8",
-        name: "Alcohol",
-        description: "Alcohol isopropílico o etílico para desinfección.",
+        name: "Primeros Auxilios",
+        description: "Alcohol, gasas, algodón y curitas.",
         price: "Consultar",
         imageUrl:
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8ZW4VvfMEZFfTUiOoI5Yru2wvwY8g-VcT5w&s",
       },
       {
-        id: "m9",
-        name: "Agua Oxigenada",
-        description: "Agua oxigenada (Peróxido de hidrógeno).",
-        price: "Consultar",
-        imageUrl:
-          "https://locatelvenezuela.vtexassets.com/arquivos/ids/167993/2090332.jpg?v=637844245742430000",
-      },
-      {
-        id: "m10",
-        name: "Algodón",
-        description: "Algodón absorbente, varias presentaciones.",
-        price: "Consultar",
-        imageUrl:
-          "https://www.farmadon.com.ve/wp-content/uploads/2025/01/Algodon-X-500Gr-Rollo-Full-Time.png",
-      },
-      {
-        id: "m11",
-        name: "Gasas",
-        description: "Paquetes de gasas estériles.",
-        price: "Consultar",
-        imageUrl:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO8H84ILlVRWjJ0AIgsjGxs4jYDgy4n1AJuQ&s",
-      },
-      {
-        id: "m12",
-        name: "Guantes de Látex y de Nitrilo",
-        description: "Cajas de guantes de látex o nitrilo.",
-        price: "Consultar",
-        imageUrl:
-          "https://um.com.co/wp-content/uploads/2024/09/Guantes-de-nitrilo.jpg",
-      },
-      {
-        id: "m13",
-        name: "Mascarillas Quirúrgicas",
-        description: "Mascarillas desechables, paquetes o cajas.",
-        price: "Consultar",
-        imageUrl:
-          "https://lh3.googleusercontent.com/q3aoc_Y4D4qncUDJBPwrWjiP5jCUsVKi7xjnwP5HMkuuwtXnVQxEJeVOZohkm8xk-HTyBD-qqNgMNCc6Nfm6aZpUVsGBhc4WfhNzO3OFZUWiranV",
-      },
-      {
-        id: "m14",
-        name: "Jeringas",
-        description: "Jeringas descartables de diferentes capacidades.",
-        price: "Consultar",
-        imageUrl:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkhoNHTWi7S0unSfqIMad8oS6PvkTawSFu-Q&s",
-      },
-      {
         id: "m15",
-        name: "Medicamentos por Receta",
-        description:
-          "Medicamentos controlados y especializados. Requiere récipe y Autorizacion por parte del cliente.",
+        name: "Medicinas con Receta",
+        description: "Gestionamos tus tratamientos especializados con orden médica.",
         price: "Consultar",
         imageUrl:
           "https://media.istockphoto.com/id/1550720063/es/foto/farmacia-farmac%C3%A9utico-o-retrato-de-mujer-con-los-brazos-cruzados-o-sonrisa-en-atenci%C3%B3n-al.jpg?s=612x612&w=0&k=20&c=MaBU_q34Uuewhq4mH6werFsGkHByB3gNSjbkdW6DBbE=",
@@ -387,149 +272,40 @@ export const catalog: Category[] = [
     ],
   },
   {
-    id: "higiene",
-    title: "Productos de Higiene",
-    description: "Cuidado personal, jabones, desodorantes y cuidado bucal.",
-    icon: Bath,
-    path: "/higiene",
-    products: [
-      {
-        id: "h1",
-        name: "Crema Dental",
-        description: "Crema dental de varias marcas y tamaños.",
-        price: "Consultar",
-        imageUrl:
-          "https://bnaturalstore.com/wp-content/uploads/2023/09/Crema-dental-sin-fluor-Importancia-de-su-uso-.jpg",
-      },
-      {
-        id: "h2",
-        name: "Cepillo de Dientes",
-        description: "Cepillo de dientes en distintas presentaciones.",
-        price: "Consultar",
-        imageUrl:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf4MtcTHGX9aY5YsNYioC1AGOeMSNnkyHORw&s",
-      },
-      {
-        id: "h3",
-        name: "Jabón de Tocador",
-        description: "Jabón de baño de diferentes fragancias.",
-        price: "Consultar",
-        imageUrl:
-          "https://media.ambito.com/p/765cf895e4a3df968a8f1607500b75de/adjuntos/360/imagenes/041/669/0041669965/730x0/smart/jabon-tocador.jpg",
-      },
-      {
-        id: "h4",
-        name: "Crema Humectante",
-        description: "Cremas corporales y faciales.",
-        price: "Consultar",
-        imageUrl:
-          "https://acdn-us.mitiendanube.com/stores/001/267/340/products/img_1551-e0c42e7176dc4607b017752730612970-640-0.webp",
-      },
-      {
-        id: "h5",
-        name: "Protector Solar",
-        description: "Protector solar (cualquier nivel de FPS).",
-        price: "Consultar",
-        imageUrl:
-          "https://cdn.shopify.com/s/files/1/0257/2156/9366/files/que-es-un-protector-solar_480x480.jpg?v=1689084815",
-      },
-      {
-        id: "h6",
-        name: "Papel Higiénico",
-        description: "Papel higiénico disponible por rollo o bulto.",
-        price: "Consultar",
-        imageUrl:
-          "https://www.eluniverso.com/resizer/v2/N2NO3HSQIVCW5LNKMZCWGKOOS4.jpg?auth=745cbce1ade9de85b8e33d2cc71637b249582d0056195f1a646f3d76d5b41e8c&width=1005&height=670&quality=75&smart=true",
-      },
-      {
-        id: "h7",
-        name: "Enjuague Bucal",
-        description: "Enjuague bucal de diferentes marcas.",
-        price: "Consultar",
-        imageUrl:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs1P1JJF2O2mv9QEqiu-syL-ly2aEPw8aH5Q&s",
-      },
-      {
-        id: "h8",
-        name: "Desodorante",
-        description: "Desodorante en barra o aerosol.",
-        price: "Consultar",
-        imageUrl: "https://assets.unileversolutions.com/v1/135484881.png",
-      },
-      {
-        id: "h9",
-        name: "Toallas Sanitarias",
-        description: "Toallas sanitarias (damas).",
-        price: "Consultar",
-        imageUrl:
-          "https://images.ctfassets.net/dml1gy2pj84f/2umMm168Vv0mbeeVo7tc43/62f9b16e1356ce6cf99f08845e5e9d78/Ehub_FemCare_Toallas_nocturnas_ALW_BR_2_Hero_700x340.webp?w=750",
-      },
-      {
-        id: "h10",
-        name: "Shampoo / Acondicionador",
-        description: "Shampoo, enjuague, acondicionador, anticaspa.",
-        price: "Consultar",
-        imageUrl:
-          "https://blog.mysubscriptionaddiction.com/wp-content/uploads/2026/03/04/2026-02-27-13.32.03-1-rotated-e1772590923932-733x634.jpg",
-      },
-      {
-        id: "h11",
-        name: "Aceite de Bebé",
-        description: "Aceite para el cuidado de la piel del bebé.",
-        price: "Consultar",
-        imageUrl:
-          "https://acdn-us.mitiendanube.com/stores/016/311/products/4-1ecf53aa692134de1517296047423825-1024-1024.webp",
-      },
-    ],
-  },
-  {
-    id: "limpieza",
-    title: "Productos de Limpieza",
-    description: "Detergentes, desinfectantes e insumos al detal y mayor.",
+    id: "limpieza-hogar",
+    title: "Limpieza del hogar",
+    description: "Detergentes y desinfectantes para un hogar impecable.",
     icon: SprayCan,
-    path: "/limpieza",
+    path: "/limpieza-hogar",
     products: [
       {
         id: "l1",
         name: "Desinfectantes",
-        description:
-          "Fragancias: cereza, lavanda, brisa marina. Venta por litro al mayor, requiere envase o garrafón.",
+        description: "Lavanda, cereza y brisa marina para tus pisos.",
         price: "Consultar",
         imageUrl:
           "https://cdn.unotv.com/images/2024/04/desinfectantes-naturales-para-limpiar-la-casa-jpg-125538.jpeg",
       },
       {
         id: "l2",
-        name: "Cloro",
-        description:
-          "Cloro concentrado. Venta por litro al mayor, requiere envase o garrafón.",
+        name: "Cloro y Blanqueadores",
+        description: "Ideal para desinfectar y blanquear ropa.",
         price: "Consultar",
         imageUrl:
           "https://www.clikisalud.net/wp-content/uploads/2020/05/medidas-precaucion-manipular-cloro.jpg",
       },
       {
         id: "l3",
-        name: "Jabón Líquido",
-        description:
-          "Jabón líquido multiuso. Venta por litro al mayor, requiere envase o garrafón.",
+        name: "Jabón Líquido para Ropa",
+        description: "Rinde más y cuida tus prendas.",
         price: "Consultar",
         imageUrl:
           "https://media.losandes.com.ar/p/2ae079e15468380a504f70b08535ab1d/adjuntos/368/imagenes/100/606/0100606985/1000x0/smart/jabon-liquido-la-limpieza-del-hogar.png",
       },
       {
-        id: "l4",
-        name: "Pinesol",
-        description:
-          "Limpiador desinfectante tipo Pinesol. Venta por litro al mayor, requiere envase o garrafón.",
-        price: "Consultar",
-        imageUrl:
-          "https://frontiergroup.org/wp-content/uploads/2023/02/PineSol-on-shelf-Mike-Mozart-CC-BY-2.0-scaled.jpg",
-      },
-      {
         id: "l5",
-        name: "Lavaplatos Líquido",
-        description:
-          "Lavaplatos líquido concentrado. Venta por litro al mayor, requiere envase o garrafón.",
+        name: "Lavaplatos",
+        description: "Limpia profundamente tu vajilla.",
         price: "Consultar",
         imageUrl:
           "https://upload.wikimedia.org/wikipedia/commons/7/71/Afwasmiddel.jpg",
@@ -537,119 +313,82 @@ export const catalog: Category[] = [
     ],
   },
   {
-    id: "licores",
-    title: "Licores",
-    description: "Gran variedad de licores al detal y cajas para eventos.",
+    id: "bebidas",
+    title: "Bebidas",
+    description: "Jugos, refrescos y licores para tus reuniones.",
     icon: Wine,
-    path: "/licores",
+    path: "/bebidas",
     products: [
       {
+        id: "a19",
+        name: "Refrescos y Colas",
+        description: "Tus refrescos favoritos en presentaciones familiares.",
+        price: "Consultar",
+        imageUrl:
+          "https://www.univision.com/_next/image?url=https%3A%2F%2Fst1.uvnimg.com%2Fbf%2F54%2Fdda207384990bd8309046b27cfb0%2Fap-090209040741.jpg&w=1280&q=75",
+      },
+      {
         id: "lic1",
-        name: "Licor de Whisky",
-        description: "Venta por unidad (botella) o por caja de 12 unidades.",
+        name: "Licores y Vinos",
+        description: "Variedad de botellas para ocasiones especiales.",
         price: "Consultar",
         imageUrl:
           "https://us.123rf.com/450wm/austler/austler2403/austler240303970/227066445-botellas-de-whisky-en-la-barra-del-bar-de-un-pub-o-restaurante.jpg?ver=6",
       },
       {
-        id: "lic2",
-        name: "Whisky",
-        description:
-          "Joven, Blended, Single Malt, 8 años, o cualquier barrica. Venta por unidad (botella) o por caja de 12 unidades.",
-        price: "Consultar",
-        imageUrl:
-          "https://www.semana.com/resizer/v2/STG67ICNONCVDAR52KHXFSUZUY.jpg?smart=true&auth=c4dd74fa7bb4f9febc9991045f0acab70ad0f739d2da753bd907a7381a4fc356&width=1280&height=720",
-      },
-      {
-        id: "lic3",
-        name: "Ron",
-        description:
-          "Joven, Añejado o de cualquier barrica. Venta por unidad (botella) o por caja de 12 unidades.",
-        price: "Consultar",
-        imageUrl:
-          "https://humoytabaco.com/wp-content/uploads/2024/08/cacique-anejo-01.jpg?w=1568",
-      },
-      {
         id: "lic4",
-        name: "Cerveza Nacional",
-        description:
-          "Latas pequeñas y de tercio, Pilsen y Light, botella unidad, cajas.",
+        name: "Cervezas Nacionales",
+        description: "Cajas de cerveza para compartir.",
         price: "Consultar",
         imageUrl:
           "https://mblm.com/wp-content/uploads/2010/03/featured_image_empresas_polar_cerveceria_polar_case.jpg",
       },
-      {
-        id: "lic5",
-        name: "Cerveza Alemana",
-        description: "Por latas de tercio, botella y six pack.",
-        price: "Consultar",
-        imageUrl:
-          "https://encervezate.com/wp-content/uploads/2025/07/GermanBiers-e1753465950246-1600x813.webp",
-      },
-      {
-        id: "lic6",
-        name: "Cerveza Holandesa (Heineken)",
-        description: "Heineken por lata y six pack.",
-        price: "Consultar",
-        imageUrl: "https://www.heineken.com/media/d4xpjtg2/image-1-3.png",
-      },
-      {
-        id: "lic7",
-        name: "Cerveza Dominicana",
-        description: "Cerveza P, por lata y six pack.",
-        price: "Consultar",
-        imageUrl:
-          "https://img1.elyerromenu.com/images/bar-4k-plus/cerveza-presidente/img.webp",
-      },
     ],
   },
   {
-    id: "ferreteria",
-    title: "Artículos de Ferretería",
-    description: "Herramientas, pinturas, plomería y eléctricos.",
+    id: "articulos-hogar",
+    title: "Artículos del hogar",
+    description: "Utensilios y accesorios prácticos para tu casa.",
     icon: Hammer,
-    path: "/ferreteria",
+    path: "/articulos-hogar",
     products: [
       {
         id: "f1",
-        name: "Pipotes de Agua",
-        description: "Capacidad de 100 lts, 120 lts, 560 lts y 1000 lts.",
+        name: "Tanques y Pipotes de Agua",
+        description: "Soluciones de almacenamiento de agua para el hogar.",
         price: "Consultar",
         imageUrl:
           "https://www.verines.com/images/001/pipote-manaplas-fuerte-150-lts.jpg",
       },
       {
         id: "f2",
-        name: "Pinturas",
-        description:
-          "Cualquier categoría y color personalizado. Presentación en galón y cuñete.",
+        name: "Pinturas para Interiores",
+        description: "Renueva tus espacios con colores a tu gusto.",
         price: "Consultar",
         imageUrl:
           "https://media.istockphoto.com/id/1674501260/es/foto/fondo-de-primer-plano-de-latas-de-pintura-vista-superior-renderizado-3d.jpg?s=612x612&w=0&k=20&c=xORsQHaariZ4HZrv2nVBQxsGIZ-bOfJ_3lOTr1-JAlw=",
       },
-      {
-        id: "f3",
-        name: "Herramientas de Pintura",
-        description:
-          "Brochas de cualquier tamaño, rodillos, bandejas, cinta para pintura.",
-        price: "Consultar",
-        imageUrl:
-          "https://www.comercialquintairos.es/blog/productos-y-herramientas-de-pintura-en-comercial-quintairos_pic2219ni0t6.jpg",
-      },
+    ],
+  },
+  {
+    id: "ferreteria-basica",
+    title: "Ferretería básica",
+    description: "Herramientas y materiales para reparaciones rápidas.",
+    icon: Hammer,
+    path: "/ferreteria-basica",
+    products: [
       {
         id: "f4",
-        name: "Herramientas Básicas",
-        description:
-          "Debe adjuntar en su lista de encargo la herramienta en específico.",
+        name: "Herramientas Manuales",
+        description: "Martillos, destornilladores y más para arreglos en casa.",
         price: "Consultar",
         imageUrl:
           "https://serveiestacio.com/blog/wp-content/uploads/2018/08/herramientas-bricolaje-fondo.jpg",
       },
       {
         id: "f5",
-        name: "Tubo PVC",
-        description:
-          "Debe especificar el tamaño, medida, grosor y si necesita codos.",
+        name: "Materiales Eléctricos y Plomería",
+        description: "Repuestos básicos para tu hogar.",
         price: "Consultar",
         imageUrl:
           "https://josebarroso.com.mx/cdn/shop/products/Tuberia_888f773e-15aa-4f26-8e8a-e5426d21c2bd.jpg?v=1618522715",

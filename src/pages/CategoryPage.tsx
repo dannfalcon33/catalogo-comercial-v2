@@ -40,7 +40,7 @@ export default function CategoryPage() {
 
   const handleProductWhatsApp = (productName: string) => {
     const phoneNumber = '5804220331995';
-    const message = encodeURIComponent(`Hola Yoshua, quisiera solicitar un encargo de pedido de: *${productName}* (${category.title}).`);
+    const message = encodeURIComponent(`Hola Yoshua, quisiera agregar este producto a mi lista de compras: *${productName}* (${category.title}).`);
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
   };
 
@@ -51,21 +51,21 @@ export default function CategoryPage() {
       animate="visible"
       className="space-y-8 max-w-7xl mx-auto"
     >
-      {category.id === 'medicamentos' && (
+      {category.id === 'medicinas' && (
         <motion.div variants={fadeUpItem} className="bg-blue-100 border border-blue-300 text-blue-900 px-6 py-4 rounded-xl mb-4 font-bold text-sm text-center shadow-sm">
-          ⚕️ IMPORTANTE: Para medicamentos recetados es estrictamente necesario presentar la <u>receta médica</u> y la <u>autorización</u> de quien emite la orden de compra.
+          ⚕️ IMPORTANTE: Para medicinas bajo receta es necesario presentar el <u>récipe médico</u> y la <u>autorización</u> correspondiente.
         </motion.div>
       )}
-      {category.id === 'ferreteria' && (
+      {category.id === 'ferreteria-basica' && (
         <motion.div variants={fadeUpItem} className="bg-orange-100 border border-orange-300 text-orange-900 px-6 py-4 rounded-xl mb-4 font-bold text-sm text-center shadow-sm">
-          🛠️ IMPORTANTE: Debe especificar detalladamente en su lista de encargo las herramientas y materiales exactos deseados para poder enviarle la cotización.
+          🛠️ IMPORTANTE: Por favor detalla exactamente qué herramienta o material necesitas para buscarte el mejor precio.
         </motion.div>
       )}
       {/* Category Header */}
       <motion.div variants={fadeUpItem} className="flex flex-col md:flex-row md:items-center justify-between bg-[#16100b] border border-amber-900/30 rounded-2xl p-6 md:p-8 shadow-xl shadow-black/40 gap-6">
         <div>
           <Link to="/" className="inline-flex items-center text-sm font-bold font-heading text-amber-500/70 hover:text-amber-400 mb-4 transition-colors uppercase tracking-wider">
-            &larr; VOLVER AL CATÁLOGO
+            &larr; VOLVER A LA TIENDA
           </Link>
           <div className="flex items-center gap-4">
             <div className="w-14 h-14 bg-amber-900/40 shadow-inner rounded-lg flex items-center justify-center text-amber-500 border border-amber-500/20">
@@ -80,13 +80,13 @@ export default function CategoryPage() {
         <button
           onClick={() => {
             const phoneNumber = '5804220331995';
-            const message = encodeURIComponent(`Hola Yoshua, estoy interesado en solicitar un encargo de pedido de la categoría: *${category.title}*.`);
+            const message = encodeURIComponent(`Hola Yoshua, quiero enviarte una lista de compras de la categoría: *${category.title}*.`);
             window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
           }}
           className="w-full md:w-auto inline-flex items-center justify-center px-6 py-3 font-bold font-heading uppercase tracking-wider text-[#0d0906] bg-gradient-to-r from-amber-400 to-amber-600 rounded-lg shadow-lg hover:from-amber-300 hover:to-amber-500 transition-colors whitespace-nowrap"
         >
           <MessageCircle className="w-5 h-5 mr-2" />
-          Cotizar Categoría
+          Enviar mi Lista
         </button>
       </motion.div>
 
@@ -116,7 +116,7 @@ export default function CategoryPage() {
                     onClick={() => handleProductWhatsApp(product.name)}
                     className="text-amber-400 text-xs font-bold font-heading uppercase tracking-widest hover:text-amber-300 transition-colors flex items-center gap-1"
                   >
-                    Encargar &rarr;
+                    Agregar &rarr;
                   </button>
                 </div>
               </div>
@@ -125,15 +125,15 @@ export default function CategoryPage() {
         </div>
       ) : (
         <motion.div variants={fadeUpItem} className="bg-[#0a0705] border-2 border-dashed border-amber-900/50 rounded-xl p-10 flex flex-col justify-center items-center text-center">
-            <p className="text-sm text-amber-400 font-heading font-bold tracking-widest uppercase">Aún no hay rubros detallados listados aquí</p>
-            <p className="text-xs text-amber-100/60 font-sans mt-3 px-4 leading-relaxed">Pregunta por disponibilidad general de la categoría vía WhatsApp</p>
+            <p className="text-sm text-amber-400 font-heading font-bold tracking-widest uppercase">Aún no hay productos detallados aquí</p>
+            <p className="text-xs text-amber-100/60 font-sans mt-3 px-4 leading-relaxed">Pregúntanos por lo que necesites vía WhatsApp</p>
             <div className="mt-4 text-2xl filter sepia opacity-80 brightness-110 hue-rotate-15">📦</div>
         </motion.div>
       )}
 
-      {['alimentos', 'carniceria', 'medicamentos', 'higiene', 'limpieza', 'licores', 'ferreteria'].includes(category.id) && (
-        <motion.div variants={fadeUpItem} className="bg-amber-100 border border-amber-300 text-amber-900 px-4 py-3 rounded-xl mt-4 font-bold text-sm text-center shadow-sm">
-          💡 La lista es personalizada, debes crear tu lista de productos deseados para poder hacer la cotización del encargo.
+      {['mercado-despensa', 'carnes-embutidos', 'medicinas', 'higiene', 'limpieza-hogar', 'bebidas', 'articulos-hogar', 'ferreteria-basica'].includes(category.id) && (
+        <motion.div variants={fadeUpItem} className="bg-amber-900/20 border border-amber-500/20 text-amber-100 px-4 py-3 rounded-xl mt-4 font-bold text-sm text-center shadow-sm">
+          💡 Recuerda: Puedes armar tu lista personalizada con todo lo que necesites para tu hogar.
         </motion.div>
       )}
     </motion.div>
