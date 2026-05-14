@@ -48,7 +48,7 @@ export default function Home() {
             className="text-4xl md:text-5xl lg:text-7xl font-black leading-[1.1] mb-6 tracking-tight text-amber-100 font-heading"
           >
             COMPRA LOS ALIMENTOS PARA TU CASA{" "}
-            <span className="text-amber-500">PRECIO MAYORISTA</span>.
+            <span className="text-amber-500"> A PRECIO DE MAYORISTA.</span>
           </motion.h1>
           <motion.p
             variants={fadeUpText}
